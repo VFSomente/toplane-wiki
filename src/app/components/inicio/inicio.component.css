@@ -1,0 +1,17 @@
+.inicio-content {
+    position: relative;
+    top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    min-height: 100vh;
+}
+
+.inicio-text-content,
+.inicio-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: 2rem;
+}
+

@@ -1,0 +1,96 @@
+:root {
+    --primary-color: rgb(1, 10, 19);
+    --secondary-color: rgb(255, 255, 255);
+    --primary-menu-color: rgb(17, 17, 17);
+    --secondary-menu-color: rgb(25, 25, 25);
+    --tertiary-menu-color: rgb(8, 180, 175);
+    --primary-font-color: rgb(200, 155, 60);
+    --secondary-font-color: rgb(0, 0, 0);
+    --tertiary-font-color: rgb(255, 255, 255);
+    --gap: 3rem;
+}
+
+@font-face {
+    font-family: 'Lol_font';
+    src: url('../public/Assets/Fonte/BeaufortForLoL-TTF/BeaufortforLOL-BoldItalic.ttf') format('truetype'), url('../public/Assets/Fonte/BeaufortForLoL-TTF/BeaufortforLOL-BoldItalic.ttf') format('opentype');
+    font-weight: normal;
+    font-Style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Lol_font', Times, serif;
+    font-size: 2rem;
+}
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Lol_font', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+ 
+h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+h4 {
+    font-size: 4.5rem;
+}
+
+h5 {
+    font-size: 4rem;
+}
+
+h6 {
+    font-size: 3.5rem;
+}
+p {
+    margin-bottom: 2rem;
+}
+
+.primary-bg {
+    background: var(--primary-color);
+    color: var(--primary-font-color);
+    background-position: center center;
+    background-size: cover;
+}
+
+.secondary-bg {
+    background: var(--secondary-color-color);
+    color: var(--secondary-font-color);
+    background-position: center center;
+    background-size: cover;
+}
+
+.section {
+    min-height: 100vh;
+}
