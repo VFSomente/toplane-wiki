@@ -94,3 +94,10 @@ p {
 .section {
     min-height: 100vh;
 }
+
+.main-content {
+    width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
